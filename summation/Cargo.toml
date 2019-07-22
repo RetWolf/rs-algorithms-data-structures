@@ -1,0 +1,15 @@
+[package]
+name = "thousand_ints"
+version = "0.1.0"
+authors = ["mconway"]
+edition = "2018"
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.2"
+
+
+[[bench]]
+name = "integer_benchmark"
+harness = false
